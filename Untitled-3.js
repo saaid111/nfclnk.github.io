@@ -1,7 +1,7 @@
 window.onload = function() {
   const searchParams = new URLSearchParams(document.referrer);
   const serialNumber = searchParams.get('serial');
-  if (serialNumber === "12345") {
+  if (serialNumber === "04:13:60:EA:5E:70:81") {
     // Give the user 10 points
     const points = localStorage.getItem('points') || 0;
     localStorage.setItem('points', Number(points) + 10);
